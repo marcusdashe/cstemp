@@ -11,7 +11,7 @@ export default function Testimonials() {
         width={100}
         alt=""
       />
-      <p className="text-3xl font-semibold mb-3 mt-10">
+      <p className="text-3xl font-semibold mb-3 mt-10 text-center lg:text-start md:text-start">
         Courses was fantastic! It is Master platform for those <br /> looking to
         start a new career, or need a refresher.
       </p>
