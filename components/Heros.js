@@ -46,9 +46,7 @@ export default function Heros() {
   return (
     <>
       <div className="mt-20 px-20 py-10 mb-20">
-        <p className="text-lg text-purple-500 text-center font-medium">
-          Tutors
-        </p>
+        <p className="text-lg text-red-800 text-center font-medium">Tutors</p>
         <p className="text-3xl font-semibold text-center py-3">
           Meet the Heroes
         </p>

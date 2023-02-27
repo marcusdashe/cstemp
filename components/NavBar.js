@@ -6,7 +6,7 @@ import Image from "next/image";
 export default function NavBar() {
   return (
     <>
-      <div className="flex flex-col lg:flex-row px-5 py-3 w-full justify-between items-center  md:fixed lg:fixed z-50">
+      <div className="flex flex-col lg:flex-row px-5 py-3 w-full justify-between items-center  md:fixed bg-transparent backdrop-blur-lg lg:fixed z-50">
         <Image
           height={100}
           width={100}
