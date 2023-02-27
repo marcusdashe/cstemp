@@ -31,9 +31,13 @@ export default function PopularClass() {
   return (
     <>
       <div className="px-20 py-10">
-        <p className="text-lg text-red-800  font-medium">Explore Programs</p>
-        <p className="text-3xl font-semibold  py-3">Our Most Popular Class</p>
-        <p className="text-gray-500 text-base py-3">
+        <p className="text-lg text-red-800 text-center  font-medium">
+          Explore Programs
+        </p>
+        <p className="text-3xl font-semibold text-center  py-3">
+          Our Most Popular Class
+        </p>
+        <p className="text-gray-500 text-base text-center py-3">
           Lets join our famous class, the knowledge provided will definitely be
           useful for you.
         </p>
@@ -41,7 +45,7 @@ export default function PopularClass() {
           {POPULAR_CLASESS.map((ser, i) => {
             return (
               <div
-                className="px-6 py-4 cursor-pointer rounded-xl bg-gray-50 shadow-lg border border-gray-200 hover:bg-red-800 group "
+                className="px-6 py-4 w-[50vw] md:w-5/6 lg:w-5/6 m-auto cursor-pointer rounded-xl bg-gray-50 shadow-lg border border-gray-200 hover:bg-red-800 group "
                 key={i}
               >
                 <Image

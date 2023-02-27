@@ -25,7 +25,7 @@ export default function Services() {
       <p className="text-lg text-[#8D161A] text-center font-medium">
         Our services
       </p>
-      <p className="text-3xl font-semibold text-center py-3">
+      <p className="text-xl md:text-3xl lg:text-3xl font-semibold text-center py-3">
         We provide assessment and certification
         <br /> services to experienced artisans, job placements, <br />
         labor outsourcing and artisans awards programs.

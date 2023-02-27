@@ -1,8 +1,9 @@
 import React from "react";
 import { AiFillLinkedin } from "react-icons/ai";
 import { BsFacebook } from "react-icons/bs";
+import Image from "next/image";
 
-const SERVICES = [
+const HEROES = [
   {
     img: "/assets/h1.svg",
     title: "Theresa Webb",
@@ -51,18 +52,24 @@ export default function Heros() {
         <p className="text-3xl font-semibold text-center py-3">
           Meet the Heroes
         </p>
-        <p className="text-gray-500 text-base py-3 text-center w-[450px] mx-auto">
+        <p className="text-gray-500 text-base py-3 text-center w-full lg:w-[450px] md:w-[450px] mx-auto">
           On Ed-Circle, instructors from all over the world instruct millions of
           students. We offer the knowledge and abilities.
         </p>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 lg:gap-12 py-10">
-          {SERVICES.map((ser, i) => {
+          {HEROES.map((ser, i) => {
             return (
               <div
                 className="px-6 py-4 flex justify-center items-center flex-col rounded-xl bg-gray-50 shadow-lg border border-gray-200 hover:bg-purple-600 group "
                 key={i}
               >
-                <img className="w-full h-20" src={ser.img} alt="services" />
+                <Image
+                  className="w-full h-20"
+                  height={50}
+                  width={50}
+                  src={ser.img}
+                  alt="services"
+                />
                 <p className="text-xl group-hover:text-white font-semibold line-clamp-1">
                   {ser.title}
                 </p>

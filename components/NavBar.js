@@ -6,7 +6,7 @@ import Image from "next/image";
 export default function NavBar() {
   return (
     <>
-      <div className="flex flex-col lg:flex-row px-5 py-3 bg-white w-full justify-between items-center  md:fixed bg-red-800 lg:fixed z-50">
+      <div className="flex flex-col lg:flex-row px-5 py-3 w-full justify-between items-center  md:fixed lg:fixed z-50">
         <Image
           height={100}
           width={100}
@@ -14,14 +14,7 @@ export default function NavBar() {
           alt="logo"
           className="object-scale-down h-50 w-20"
         />
-        {/* <div className="flex gap-2 items-center border border-[#d0d5dd] px-0.5 pl-2 py-0.5 rounded-md" >
-                <CiSearch className='text-[#c3c5c9]'/>
-                <input className='focus:outline-none' type="text" placeholder='Want to learn?'/>
-                <button className='flex items-center px-3 py-1 font-medium text-purple-600 capitalize rounded-md bg-purple-50 hover:bg-purple-200'>Explore
-                    <BsArrowDownShort/>
-                </button>
-            </div> */}
-        <div className="flex items-center gap-8">
+        <div className="hidden md:flex lg:flex items-center gap-8">
           <p className="text-base font-medium cursor-pointer hover:text-[#8D161A]">
             Home
           </p>
