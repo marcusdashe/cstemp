@@ -1,7 +1,8 @@
-import React from "react";
+import React, { useState } from "react";
 import { IoIosArrowForward } from "react-icons/io";
 import Image from "next/image";
 import { HiOutlineArrowUpRight } from "react-icons/hi2";
+import { motion, useScroll } from "framer-motion";
 
 const POPULAR_CLASESS = [
   {
@@ -28,6 +29,7 @@ const POPULAR_CLASESS = [
 ];
 
 export default function PopularClass() {
+  const [activeIndex, setActiveIndex] = useState(0);
   return (
     <>
       <div className="lg:px-20 md:px-20 lg:py-10 md:py-20">
@@ -42,11 +44,13 @@ export default function PopularClass() {
           useful for you.
         </p>
         <div className="flex flex-col h-fit lg:h-fit md:h-fit w-full md:flex-row lg:flex-row items-center content-center justify-center lg:items-center lg:content-center lg:justify-start md:items-center md:content-center md:justify-start">
-          {POPULAR_CLASESS.map((ser, i) => {
+          {POPULAR_CLASESS.map((ser, index) => {
             return (
-              <div
-                className="px-6 py-4 w-96 md:w-96 lg:w-96 mt-10 mb-10 lg:mr-3 md:mr-3 m-auto cursor-pointer rounded-xl bg-gray-50 shadow-lg border border-gray-200 hover:bg-red-800 group "
-                key={i}
+              <motion.div
+                initial={{ opacity: 0.3 }}
+                whileInView={{ opacity: 1 }}
+                className={`px-6 py-4 w-96 md:w-96 lg:w-96 mt-10 mb-10 lg:mr-5 md:mr-5 m-auto cursor-pointer rounded-xl bg-gray-50 shadow-lg border border-gray-200 hover:bg-red-800 group hover:scale-105`}
+                key={index}
               >
                 <Image
                   className="w-full"
@@ -97,7 +101,7 @@ export default function PopularClass() {
                     $13.45
                   </p>
                 </div>
-              </div>
+              </motion.div>
             );
           })}
         </div>
