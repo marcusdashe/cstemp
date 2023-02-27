@@ -30,22 +30,22 @@ const POPULAR_CLASESS = [
 export default function PopularClass() {
   return (
     <>
-      <div className="px-20 py-10">
-        <p className="text-lg text-red-800 text-center  font-medium">
+      <div className="lg:px-20 md:px-20 lg:py-10 md:py-20">
+        <p className="text-lg text-red-800 text-center lg:text-start md:text-start font-medium">
           Explore Programs
         </p>
-        <p className="text-3xl font-semibold text-center  py-3">
+        <p className="text-3xl font-semibold text-center lg:text-start md:text-start py-3">
           Our Most Popular Class
         </p>
-        <p className="text-gray-500 text-base text-center py-3">
+        <p className="text-gray-500 text-base text-center lg:text-start md:text-start py-3">
           Lets join our famous class, the knowledge provided will definitely be
           useful for you.
         </p>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 lg:gap-12 py-10">
+        <div className="flex flex-col h-fit lg:h-fit md:h-fit w-full md:flex-row lg:flex-row items-center content-center justify-center lg:items-center lg:content-center lg:justify-start md:items-center md:content-center md:justify-start">
           {POPULAR_CLASESS.map((ser, i) => {
             return (
               <div
-                className="px-6 py-4 w-[50vw] md:w-5/6 lg:w-5/6 m-auto cursor-pointer rounded-xl bg-gray-50 shadow-lg border border-gray-200 hover:bg-red-800 group "
+                className="px-6 py-4 w-96 md:w-96 lg:w-96 mt-10 mb-10 lg:mr-3 md:mr-3 m-auto cursor-pointer rounded-xl bg-gray-50 shadow-lg border border-gray-200 hover:bg-red-800 group "
                 key={i}
               >
                 <Image

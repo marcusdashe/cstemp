@@ -4,17 +4,10 @@ import Image from "next/image";
 
 export default function Footer() {
   return (
-    <div className="bg-slate-900 h-[70vh] flex">
-      <div className="w-2/6 h-full flex flex-col items-start content-start text-white">
-        <Image src="/assets/logo.svg" height={100} width={100} alt="logo" />
-        <ul className="p-3">
-          <li>About Us</li>
-          <li>FAQ</li>
-          <li>Legal Information</li>
-        </ul>
-      </div>
-      <div className="w-2/6 h-full"></div>
-      <div className="w-2/6 h-full"></div>
+    <div className="bg-slate-900 h-[70vh] flex flex-col lg:flex-row md:flex-row">
+      <div className="w-full h-3/6 lg:w-3/6 md:w-3/6 lg:h-full md:h-full bg-red-800"></div>
+      <div className="w-full h-3/6 lg:w-3/6 md:w-3/6 lg:h-full md:h-full bg-red-700"></div>
+      <div className="w-full h-3/6 lg:w-3/6 md:w-3/6 lg:h-full md:full bg-red-600"></div>
     </div>
   );
 }
