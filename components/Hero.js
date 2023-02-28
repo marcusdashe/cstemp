@@ -96,14 +96,18 @@ export default function Hero() {
         </div>
       </div>
       {/* IDFK=>something about what we do sha */}
-      <div className="hidden lg:flex md:flex w-5/6 m-auto mt-14 mb-10 font-medium justify-around bg-zinc-100 p-8 rounded-md">
+      <motion.div
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        className="hidden lg:flex md:flex w-5/6 m-auto mt-14 mb-10 font-medium justify-around bg-zinc-100 p-8 rounded-md"
+      >
         <span className="text-align flex flex-col items-center content-center justify-center text-slate-900">
           <Image
             src="/assets/talent.png"
             alt=""
             height={100}
             width={100}
-            className="object-scale-down h-20 w-20"
+            className="object-scale-down"
           />
           Training Talent
         </span>
@@ -137,7 +141,7 @@ export default function Hero() {
           />
           Awarding Artisans
         </span>
-      </div>
+      </motion.div>
     </>
   );
 }
