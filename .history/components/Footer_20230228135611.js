@@ -58,8 +58,7 @@ export default function Footer() {
           <p className="text-gray-300">
             <small>+234 (0) 9092664712</small>
             <small>+234 (0) 9155992718</small>
-          </p>
-          <div className="flex flex-col mt-3 lg:flex-row md:flex-row justify-between">
+            <div className="flex flex-col mt-3 lg:flex-row md:flex-row justify-between">
               <p className="font-medium text-md text-gray-300">
                 enquiries@cstemp.org
               </p>
@@ -67,6 +66,7 @@ export default function Footer() {
                 admin@cstemp.org
               </p>
             </div>
+          </p>
         </div>
       </div>
     </div>

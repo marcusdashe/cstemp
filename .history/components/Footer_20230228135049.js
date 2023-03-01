@@ -56,10 +56,9 @@ export default function Footer() {
           <h1>Contact Us</h1>
           <hr className="mt-3 mb-3 opacity-[0.2]"></hr>
           <p className="text-gray-300">
-            <small>+234 (0) 9092664712</small>
-            <small>+234 (0) 9155992718</small>
-          </p>
-          <div className="flex flex-col mt-3 lg:flex-row md:flex-row justify-between">
+            <p>+234 (0) 9092664712</p>
+            <p>+234 (0) 9155992718</p>
+            <div className="flex flex-col mt-3 lg:flex-row md:flex-row justify-between">
               <p className="font-medium text-md text-gray-300">
                 enquiries@cstemp.org
               </p>
@@ -67,6 +66,7 @@ export default function Footer() {
                 admin@cstemp.org
               </p>
             </div>
+          </p>
         </div>
       </div>
     </div>

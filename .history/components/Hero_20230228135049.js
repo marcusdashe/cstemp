@@ -15,7 +15,7 @@ export default function Hero() {
             <p className="font-5xl mt-3 font-bold text-center lg:text-start md:text-start">
               We believe in people, invest in people, and build people. <br />
               Our goal is to train, empower and support people, especially the
-              youth. Interfacing them with developers and industry leaders to
+              youth.Interfacing them with developers and industry leaders to
               create a synergy between labor demand and labor supply.
             </p>
           </div>
@@ -45,10 +45,10 @@ export default function Hero() {
           </div>
           {/* buttons */}
           <div className="w-full md:w-5/6 lg:w-5/6 flex items-center content-center justify-center lg:items-center lg:content-center lg:justify-start md:items-center md:content-center md:justify-start mt-10">
-            <button className="p-2 pl-4 pr-4 bg-red-800 text-white rouned-md font-medium text-md rounded-md hover:bg-[#D5D0ED]">
+            <button className="p-2 pl-4 pr-4 bg-red-800 text-white rouned-md font-medium text-md rounded-md">
               Learn More
             </button>
-            <button className="p-2 pl-4 pr-4 bg-red-800 ml-3 text-white rouned-md font-medium text-md rounded-md hover:bg-[#D5D0ED]">
+            <button className="p-2 pl-4 pr-4 bg-red-800 ml-3 text-white rouned-md font-medium text-md rounded-md">
               Get Started
             </button>
           </div>

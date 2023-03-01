@@ -50,7 +50,7 @@ export default function PopularClass() {
               <motion.div
                 initial={{ opacity: 0.3 }}
                 whileInView={{ opacity: 1 }}
-                className={`px-6 py-4 w-96 md:w-96 lg:w-96 mt-10 mb-10 lg:mr-5 md:mr-5 m-auto cursor-pointer rounded-xl bg-gray-50 shadow-lg border border-gray-200 hover:bg-red-800 group duration-500 hover:scale-105 duration-500`}
+                className={`px-6 py-4 w-96 md:w-96 lg:w-96 mt-10 mb-10 lg:mr-5 md:mr-5 m-auto cursor-pointer rounded-xl bg-gray-50 shadow-lg border border-gray-200 hover:bg-red-800 group hover:scale-105`}
                 key={index}
               >
                 <Image
@@ -60,7 +60,9 @@ export default function PopularClass() {
                   height={100}
                   alt="services"
                 />
-               
+                {/* <p className="text-lg text-red-800 group-hover:text-white capitalize py-2">
+                  {ser.promo}
+                </p> */}
                 <div className="flex justify-between items-center">
                   <p className="text-2xl group-hover:text-white font-semibold line-clamp-1">
                     {ser.title}
@@ -71,7 +73,35 @@ export default function PopularClass() {
                 <p className="text-base group-hover:text-white pr-6 py-2">
                   {ser.sub}
                 </p>
-            
+                <div className="flex items-center gap-2 group-hover:text-white">
+                  <p>{ser.rating}</p>
+                  <Image
+                    src="/assets/star.svg"
+                    height={100}
+                    width={100}
+                    alt="star"
+                  />
+                  <p>123</p>
+                </div>
+                <div className="flex justify-between py-2">
+                  <div className="flex gap-3">
+                    <Image
+                      src="/assets/person.svg"
+                      height={100}
+                      width={100}
+                      alt="person"
+                    />
+                    <div className="flex flex-col">
+                      <p className="text-sm group-hover:text-white">Jimmy</p>
+                      <p className="text-xs text-gray-500 group-hover:text-white">
+                        200 Enrolled
+                      </p>
+                    </div>
+                  </div>
+                  <p className="text-xl text-purple-600 group-hover:text-white font-semibold">
+                    $13.45
+                  </p>
+                </div>
               </motion.div>
             );
           })}
