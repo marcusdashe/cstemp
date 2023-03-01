@@ -8,10 +8,10 @@ export default function Footer() {
     <div className="bg-slate-900 h-[130vh] lg:h-[80vh] md:h-[80vh] flex flex-col lg:flex-row md:flex-row">
       <div className="w-full h-3/6 lg:w-3/6 md:w-3/6 lg:h-full md:h-full flex flex-col lg:flex-col md:flex-col justify-between">
         <div className="px-10 py-10">
-          <Image src="/assets/logo1.png" height={70} width={100} alt="logo" />
+          <Image src="/assets/logo.png" height={70} width={100} alt="logo" />
         </div>
-        <div className="w-full px-10 py-10 h-[5vh] px-5 py-5 flex flex-row lg:flex-row md:flex-row items-center content-center justify-start">
-          <p className="text-xs lg:text-xs md:text-xs text-gray-400">
+        <div className="w-full h-[5vh] px-5 py-5 flex flex-row lg:flex-row md:flex-row items-center content-center justify-start">
+          <p className="text-white text-sm lg:text-sm md:text-sm text-gray-400">
             &copy; Copyright CSTEMP LTD/Gtee 2023
           </p>
         </div>
@@ -58,8 +58,7 @@ export default function Footer() {
           <p className="text-gray-300">
             <small>+234 (0) 9092664712</small>
             <small>+234 (0) 9155992718</small>
-          </p>
-          <div className="flex flex-col mt-3 lg:flex-row md:flex-row justify-between">
+            <div className="flex flex-col mt-3 lg:flex-row md:flex-row justify-between">
               <p className="font-medium text-md text-gray-300">
                 enquiries@cstemp.org
               </p>
@@ -67,6 +66,7 @@ export default function Footer() {
                 admin@cstemp.org
               </p>
             </div>
+          </p>
         </div>
       </div>
     </div>

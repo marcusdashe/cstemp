@@ -8,10 +8,10 @@ export default function Footer() {
     <div className="bg-slate-900 h-[130vh] lg:h-[80vh] md:h-[80vh] flex flex-col lg:flex-row md:flex-row">
       <div className="w-full h-3/6 lg:w-3/6 md:w-3/6 lg:h-full md:h-full flex flex-col lg:flex-col md:flex-col justify-between">
         <div className="px-10 py-10">
-          <Image src="/assets/logo1.png" height={70} width={100} alt="logo" />
+          <Image src="/assets/logo.png" height={70} width={100} alt="logo" />
         </div>
-        <div className="w-full px-10 py-10 h-[5vh] px-5 py-5 flex flex-row lg:flex-row md:flex-row items-center content-center justify-start">
-          <p className="text-xs lg:text-xs md:text-xs text-gray-400">
+        <div className="w-full h-[5vh] px-5 py-5 flex flex-row lg:flex-row md:flex-row items-center content-center justify-start">
+          <p className="text-white text-sm lg:text-sm md:text-sm text-gray-400">
             &copy; Copyright CSTEMP LTD/Gtee 2023
           </p>
         </div>

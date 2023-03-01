@@ -1,6 +1,5 @@
 import React from "react";
 import Image from "next/image";
-import { motion } from "framer-motion";
 
 const PARTNERS = [
   {
@@ -13,17 +12,16 @@ const PARTNERS = [
     title: "Industrial Training Fund",
   },
   {
-    img: "/partners/fmhdm.png",
+    img: "/partners/farouq.png",
     title: "FMHDM",
   },
   {
-    img: "/partners/coren.png",
-    title: "Coren",
+    img: "/assets/h2.svg",
+    title: "Theresa Webb",
+    sub: "Application Support Analyst Lead",
+    fb: "https://www.facebook.com/",
+    twitter: "https://www.twitter.com/",
   },
-  {
-    img: "/partners/clyde.png",
-    title: "Clyde and Oak Capitals",
-  }
 
 ]
 
@@ -36,8 +34,7 @@ export default function Testimonials() {
         height={100}
         width={100}
         alt=""
-      /> */} 
-      <p>Our Partners</p>
+      /> */} <p>Our Partners</p>
       <p className="text-3xl font-semibold mb-3 mt-10 text-center lg:text-start md:text-start">
       Meet Our Trusted Partners: Together We're Building a Better Future <br />
       </p>
@@ -53,6 +50,7 @@ export default function Testimonials() {
             )
         })}
       </div>
+      
     </div>
   );
 }

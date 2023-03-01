@@ -11,7 +11,7 @@ export default function NavBar() {
         <Image
           height={100}
           width={100}
-          src="/assets/logo1.png"
+          src="/assets/logo.png"
           alt="logo"
           className="object-scale-down h-50 w-20"
         />

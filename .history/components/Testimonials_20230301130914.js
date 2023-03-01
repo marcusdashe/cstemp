@@ -1,6 +1,5 @@
 import React from "react";
 import Image from "next/image";
-import { motion } from "framer-motion";
 
 const PARTNERS = [
   {
@@ -36,8 +35,7 @@ export default function Testimonials() {
         height={100}
         width={100}
         alt=""
-      /> */} 
-      <p>Our Partners</p>
+      /> */} <p>Our Partners</p>
       <p className="text-3xl font-semibold mb-3 mt-10 text-center lg:text-start md:text-start">
       Meet Our Trusted Partners: Together We're Building a Better Future <br />
       </p>
@@ -53,6 +51,7 @@ export default function Testimonials() {
             )
         })}
       </div>
+      
     </div>
   );
 }
