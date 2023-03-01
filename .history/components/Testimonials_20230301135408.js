@@ -17,13 +17,14 @@ const PARTNERS = [
     title: "FMHDM",
   },
   {
-    img: "/partners/redan.png",
-    title: "Clyde and Oak Capitals",
+    img: "/partners/.png",
+    title: "Coren",
   },
   {
-    img: "/partners/copen.png",
-    title: "Coren",
+    img: "/partners/.png",
+    title: "Clyde and Oak Capitals",
   }
+
 ]
 
 export default function Testimonials() {

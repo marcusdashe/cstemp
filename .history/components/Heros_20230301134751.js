@@ -53,7 +53,7 @@ export default function Heros() {
       >
         <p className="text-lg text-red-800 text-center font-medium">The Team</p>
         <p className="text-3xl font-semibold text-center py-3">
-        Get to know the faces behind the success of our company
+          Meet the Innovators?
         </p>
         <p className="text-gray-500 text-base py-3 text-center w-full lg:w-[450px] md:w-[450px] mx-auto">
           At CSTEmp we pride ourselves on our wealth of knowledge and leadership

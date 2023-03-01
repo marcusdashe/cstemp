@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 export default function Hero() {
   return (
     <>
-      <div className="lg:h-[85vh] px-3 py-3 lg:px-0 lg:py-0 md:px-0 md:py-0 md:h-[80vh] h-[80vh] w-auto lg:w-full md:w-full flex flex-col lg:flex-row md:flex-row justify-between items-center content-center">
+      <div className="lg:h-[100vh] px-3 py-3 lg:px-0 lg:py-0 md:px-0 md:py-0 md:h-[8vh] h-[80vh] outline w-auto lg:w-full md:w-full flex flex-col lg:flex-row md:flex-row justify-between items-center content-center">
         {/* right side */}
         <div className="w-full lg:w-3/6 md:w-3/6 h-full flex flex-col items-center content-center justify-center">
           <div className="w-5/6 flex flex-col items-center content-center justify-center lg:items-start md:items-start lg:content-start md:content-start">
