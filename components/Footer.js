@@ -10,8 +10,8 @@ export default function Footer() {
         <div className="px-10 py-10">
           <Image src="/assets/logo.png" height={70} width={100} alt="logo" />
         </div>
-        <div className="w-full h-[5vh] px-5 py-5 flex flex-row lg:flex-row md:flex-row items-center content-center justify-start">
-          <p className="text-white text-sm lg:text-sm md:text-sm text-gray-400">
+        <div className="w-full px-10 py-10 h-[5vh] px-5 py-5 flex flex-row lg:flex-row md:flex-row items-center content-center justify-start">
+          <p className="text-xs lg:text-xs md:text-xs text-gray-400">
             &copy; Copyright CSTEMP LTD/Gtee 2023
           </p>
         </div>
@@ -55,18 +55,18 @@ export default function Footer() {
         <div className="px-10 py-10">
           <h1>Contact Us</h1>
           <hr className="mt-3 mb-3 opacity-[0.2]"></hr>
-          <p className="text-gray-300">
-            <p>+234 (0) 9092664712</p>
-            <p>+234 (0) 9155992718</p>
-            <div className="flex flex-col mt-3 lg:flex-row md:flex-row justify-between">
-              <p className="font-medium text-md text-gray-300">
-                enquiries@cstemp.org
-              </p>
-              <p className="font-medium text-md text-gray-300">
-                admin@cstemp.org
-              </p>
-            </div>
-          </p>
+          <div className="text-gray-300">
+            <p className="text-sm">+234 (0) 9092664712</p>
+            <p className="text-sm">+234 (0) 9155992718</p>
+          </div>
+          <div className="flex flex-col mt-3 lg:flex-row md:flex-row justify-between">
+            <p className="font-medium text-sm text-gray-300">
+              enquiries@cstemp.org
+            </p>
+            <p className="font-medium text-sm text-gray-300">
+              admin@cstemp.org
+            </p>
+          </div>
         </div>
       </div>
     </div>

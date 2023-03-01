@@ -1,9 +1,14 @@
 import React from "react";
 import Image from "next/image";
+import { motion } from "framer-motion";
 
 export default function Testimonials() {
   return (
-    <div className="container mx-auto flex flex-col justify-center items-center bg-gray-50 py-10 mb-20 rounded-md">
+    <motion.div
+      initial={{ scale: 0 }}
+      whileInView={{ scale: 1 }}
+      className="container mx-auto flex flex-col justify-center items-center bg-gray-50 py-10 mb-20 rounded-md"
+    >
       <Image
         className=""
         src="/assets/logo.svg"
@@ -11,7 +16,7 @@ export default function Testimonials() {
         width={100}
         alt=""
       />
-      <p className="text-3xl font-semibold mb-3 mt-10 text-center lg:text-start md:text-start">
+      <p className="text-3xl font-semibold mb-3 mt-10 text-center lg:text-center md:text-center">
         Courses was fantastic! It is Master platform for those <br /> looking to
         start a new career, or need a refresher.
       </p>
@@ -22,6 +27,6 @@ export default function Testimonials() {
           <p className="text-base text-gray-400 font-medium ">ITF-NECA</p>
         </span>
       </div>
-    </div>
+    </motion.div>
   );
 }

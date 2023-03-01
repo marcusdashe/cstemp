@@ -1,5 +1,6 @@
 import React from "react";
 import { IoIosArrowForward } from "react-icons/io";
+import { motion } from "framer-motion";
 
 const SERVICES = [
   {
@@ -21,7 +22,11 @@ const SERVICES = [
 
 export default function Services() {
   return (
-    <div className="container mx-auto items-center py-10">
+    <motion.div
+      initial={{ opacity: 0.2 }}
+      whileInView={{ opacity: 1 }}
+      className="container mx-auto items-center py-10"
+    >
       <p className="text-lg text-[#8D161A] text-center font-medium">
         Our services
       </p>
@@ -34,25 +39,21 @@ export default function Services() {
         {SERVICES.map((ser, i) => {
           return (
             <div
-              className="px-6 py-8 rounded-xl cursor-pointer transition-opacity duration-75 bg-gray-50 hover:bg-[#8D161A] group border border-gray-300 border-opacity-[0.3] flex flex-col items-start content-start justify-between"
+              className="px-6 py-8 rounded-xl cursor-pointer transition-opacity duration-75 bg-gray-50 border border-gray-300 border-opacity-[0.3] flex flex-col items-start content-start justify-between"
               key={i}
             >
               <div className="flex flex-col gap-3 items-start content-start">
                 {/* <img src={ser.img} alt="services" /> */}
-                <p className="text-2xl group-hover:text-white font-semibold ">
-                  {ser.title}
-                </p>
-                <p className="text-base group-hover:text-white pr-6 py-2">
-                  {ser.sub}
-                </p>
+                <p className="text-2xl font-semibold ">{ser.title}</p>
+                <p className="text-base pr-6 py-2">{ser.sub}</p>
               </div>
-              <button className="flex gap-2 items-center text-red-800 font-medium group-hover:text-white">
+              <button className="flex gap-2 items-center text-red-800 font-medium">
                 Learn More <IoIosArrowForward />{" "}
               </button>
             </div>
           );
         })}
       </div>
-    </div>
+    </motion.div>
   );
 }
