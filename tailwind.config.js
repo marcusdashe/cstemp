@@ -6,12 +6,14 @@ module.exports = {
     "./layouts/**/*.{js,ts,jsx,tsx}",
   ],
 
-
   theme: {
     extend: {
       colors: {
-        'cstempred': '#8d161a',
+        cstempred: "#8d161a",
       },
+    },
+    backgroundImage: {
+      "hero-bg": "url('/assets/bg-pattern.png')",
     },
     container: {
       padding: {
@@ -23,11 +25,11 @@ module.exports = {
       },
     },
     fontFamily: {
-      monoton:["Monoton", "cursive"],
-      satoshi:['Satoshi', 'sans-serif'],
-      clash:['Clash Display', 'sans-serif'],
+      monoton: ["Monoton", "cursive"],
+      satoshi: ["Satoshi", "sans-serif"],
+      clash: ["Clash Display", "sans-serif"],
       infinite: ["Outfit", "sans-serif"],
-      bebasneo: ['Bebas Neue', 'cursive'],
+      bebasneo: ["Bebas Neue", "cursive"],
     },
     extend: {
       boxShadow: {
@@ -37,7 +39,7 @@ module.exports = {
         glass: "1px 5px 12px 1px rgba( 31, 38, 135, 0.37 )",
         "glass-card": "4px 4px 4px 4px rgba( 32, 32, 32, 0.37 )",
         "card-shadow": "0 8px 32px 0 rgba( 31, 38, 135, 0.37 )",
-        "dark-shadow": "10px 10px 5px 0px rgba(130,130,130,0.75)"
+        "dark-shadow": "10px 10px 5px 0px rgba(130,130,130,0.75)",
       },
 
       colors: {
@@ -73,5 +75,5 @@ module.exports = {
       },
     ],
   },
-  plugins: [ require("daisyui"),require('@tailwindcss/line-clamp')],
+  plugins: [require("daisyui"), require("@tailwindcss/line-clamp")],
 };

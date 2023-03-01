@@ -10,8 +10,8 @@ export default function Footer() {
         <div className="px-10 py-10">
           <Image src="/assets/logo1.png" height={70} width={100} alt="logo" />
         </div>
-        <div className="w-full h-[5vh] px-5 py-5 flex flex-row lg:flex-row md:flex-row items-center content-center justify-start">
-          <p className="text-white text-sm lg:text-sm md:text-sm text-gray-400">
+        <div className="w-full px-10 py-10 h-[5vh] px-5 py-5 flex flex-row lg:flex-row md:flex-row items-center content-center justify-start">
+          <p className="text-xs lg:text-xs md:text-xs text-gray-400">
             &copy; Copyright CSTEMP LTD/Gtee 2023
           </p>
         </div>
