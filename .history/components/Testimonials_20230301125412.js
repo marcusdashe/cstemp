@@ -12,16 +12,12 @@ const PARTNERS = [
     title: "Industrial Training Fund",
   },
   {
-    img: "/partners/fmhdm.png",
+    img: "/partners/humanitarian.jpg",
     title: "FMHDM",
   },
   {
     img: "/partners/coren.png",
-    title: "Coren",
-  },
-  {
-    img: "/partners/clyde.png",
-    title: "Clyde and Oak Capitals",
+    title: "Theresa Webb",
   }
 
 ]

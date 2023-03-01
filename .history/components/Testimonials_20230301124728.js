@@ -12,17 +12,19 @@ const PARTNERS = [
     title: "Industrial Training Fund",
   },
   {
-    img: "/partners/fmhdm.png",
-    title: "FMHDM",
+    img: "/assets/h2.svg",
+    title: "Theresa Webb",
+    sub: "Application Support Analyst Lead",
+    fb: "https://www.facebook.com/",
+    twitter: "https://www.twitter.com/",
   },
   {
-    img: "/partners/coren.png",
-    title: "Coren",
+    img: "/assets/h2.svg",
+    title: "Theresa Webb",
+    sub: "Application Support Analyst Lead",
+    fb: "https://www.facebook.com/",
+    twitter: "https://www.twitter.com/",
   },
-  {
-    img: "/partners/clyde.png",
-    title: "Clyde and Oak Capitals",
-  }
 
 ]
 

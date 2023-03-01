@@ -12,7 +12,7 @@ const PARTNERS = [
     title: "Industrial Training Fund",
   },
   {
-    img: "/partners/fmhdm.png",
+    img: "/partners/humanitarian.jpg",
     title: "FMHDM",
   },
   {
