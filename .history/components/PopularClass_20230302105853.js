@@ -13,7 +13,7 @@ const POPULAR_CLASESS = [
     rating: "4.5",
   },
   {
-    img: "/assets/group.jpeg",
+    img: "/assets/learn.svg",
     title: "Content Development",
     sub: "Using learning resources for Technical & Vocational Education & Training Institutions (TVET), we have produced quality recyclable educational content e.g; tutorial videos, modules, etc. Educational Technology is our way forward.",
     promo: "design",
@@ -57,7 +57,7 @@ export default function PopularClass() {
                   className="w-full mb-3"
                   src={ser.img}
                   width={300}
-                  height={100}
+                  height={200}
                   alt="services"
                 />
                

@@ -6,21 +6,21 @@ import { motion, useScroll } from "framer-motion";
 
 const POPULAR_CLASESS = [
   {
-    img: "/artisanal/16.jpg",
+    img: "/artisanal/1.jpg",
     title: "Training",
     sub: "Providing training for skilled labor to construction companies, organizations and developers on a temporary or permanent basis. Providing training to up-skill builders, developers and supervisors. Providing social empowerment opportunities for trained artisans (Small scale building materials production workshop).",
     promo: "design",
     rating: "4.5",
   },
   {
-    img: "/assets/group.jpeg",
+    img: "/assets/learn.svg",
     title: "Content Development",
     sub: "Using learning resources for Technical & Vocational Education & Training Institutions (TVET), we have produced quality recyclable educational content e.g; tutorial videos, modules, etc. Educational Technology is our way forward.",
     promo: "design",
     rating: "4.5",
   },
   {
-    img: "/artisanal/10.jpg",
+    img: "/assets/code.svg",
     title: "Artisans Awards",
     sub: "At C-STEMP, we understand that great artisans are not born, they are trained. And we ensure that they are trained exceptionally. This is why we only consider it fair to celebrate excellent craftsmanship.We expose commercially invaluable skills that drive development. We celebrate hard work and talents. Encouraging and empowering the community.",
     promo: "design",
@@ -56,7 +56,7 @@ export default function PopularClass() {
                 <Image
                   className="w-full mb-3"
                   src={ser.img}
-                  width={300}
+                  width={100}
                   height={100}
                   alt="services"
                 />

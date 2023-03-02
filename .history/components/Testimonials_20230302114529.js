@@ -40,7 +40,7 @@ export default function Testimonials() {
         Meet Our Trusted Partners: Together We're Building a Better Future{" "}
         <br />
       </p>
-      <div className="flex flex-col lg:flex-row md:flex-row items-center content-center justify-evenly w-full mt-3">
+      <div className="flex flex-row items-center content-center justify-evenly w-full mt-3">
         {PARTNERS.map((item, idx) => {
           return (
             <div

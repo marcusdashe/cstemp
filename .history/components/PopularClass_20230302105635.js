@@ -13,14 +13,14 @@ const POPULAR_CLASESS = [
     rating: "4.5",
   },
   {
-    img: "/assets/group.jpeg",
+    img: "/assets/learn.svg",
     title: "Content Development",
     sub: "Using learning resources for Technical & Vocational Education & Training Institutions (TVET), we have produced quality recyclable educational content e.g; tutorial videos, modules, etc. Educational Technology is our way forward.",
     promo: "design",
     rating: "4.5",
   },
   {
-    img: "/artisanal/10.jpg",
+    img: "/assets/code.svg",
     title: "Artisans Awards",
     sub: "At C-STEMP, we understand that great artisans are not born, they are trained. And we ensure that they are trained exceptionally. This is why we only consider it fair to celebrate excellent craftsmanship.We expose commercially invaluable skills that drive development. We celebrate hard work and talents. Encouraging and empowering the community.",
     promo: "design",
@@ -57,7 +57,7 @@ export default function PopularClass() {
                   className="w-full mb-3"
                   src={ser.img}
                   width={300}
-                  height={100}
+                  height={300}
                   alt="services"
                 />
                

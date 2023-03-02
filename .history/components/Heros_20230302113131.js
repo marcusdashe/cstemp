@@ -66,9 +66,9 @@ export default function Heros() {
                 className="px-6 py-4 w-80 lg:w-96 md:w-96 lg:ml-3 md:ml-3 lg:mr-3 md:mr-3 mt-10 mb-10 flex justify-center items-center flex-col rounded-xl bg-gray-50 shadow-lg border border-gray-200"
                 key={i}
               >
-               <div className="h-20 w-20 rounded-full ">
-                <Image
-                  className="object-cover aspect-square h-full w-full rounded-full"
+               <div>
+               <Image
+                  className="w-full h-20"
                   height={50}
                   width={50}
                   src={ser.img}

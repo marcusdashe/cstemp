@@ -63,7 +63,7 @@ export default function Hero() {
               right: 50,
               bottom: 50,
             }}
-            className="bg-gradient-to-br from-red-800 border-gray-200 border-opacity-[0.2] to-red-600 w-96 h-96 shadow-lg lg:h-[30rem] lg:w-[30rem] md:h-[30rem] md:w-[30rem] rounded-full overflow-hidden absolute z-0 flex items-center content-center justify-center"
+            className="bg-gradient-to-br from-red-800 border-gray-200 border-opacity-[0.2] to-red-600 shadow-lg h-96 w-96 p-10 rounded-full overflow-hidden absolute z-0 flex items-center content-center justify-center"
           >
             <Image
               src="/artisanal/9.jpg"
@@ -82,15 +82,15 @@ export default function Hero() {
               right: 50,
               bottom: 50,
             }}
-            className="bg-transparent backdrop-blur-3xl border-gray-200 border-opacity-[0.2] border-1 shadow-lg h-60 w-60 flex flex-col items-center content-center justify-center rounded-full overflow-hidden absolute z-10 left-[50%] top-[73%] lg:left-[55%] lg:top-[20%] md:top-[20%] md:left-[50%]"
+            className="bg-transparent backdrop-blur-3xl border-gray-200 border-opacity-[0.2] border-2 shadow-lg h-48 w-48 flex flex-col items-center content-center p-10 rounded-full overflow-hidden absolute z-10 left-[50%] top-[73%] lg:left-[55%] lg:top-[20%] md:top-[20%] md:left-[50%]"
           >
             <Image
-              src="/artisanal/17.jpg"
+              src="/artisanal/13.jpg"
               draggable={false}
               alt=""
-              height={500}
-              width={500}
-              className="object-fill rounded-full"
+              height={100}
+              width={100}
+              className="object-cover rounded-full"
             />
           </motion.div>
         </div>

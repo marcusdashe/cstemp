@@ -40,11 +40,11 @@ export default function Testimonials() {
         Meet Our Trusted Partners: Together We're Building a Better Future{" "}
         <br />
       </p>
-      <div className="flex flex-col lg:flex-row md:flex-row items-center content-center justify-evenly w-full mt-3">
+      <div className="flex flex-row bg-red-200 items-center content-center justify-center">
         {PARTNERS.map((item, idx) => {
           return (
             <div
-              className="flex flex-col items-center content-center justify-between mx-[20px] my-4 py-3 "
+              className="flex flex-col items-center content-center justify-between mx-[20px] bg-red-800 my-4 py-3 "
               key={idx}
             >
               <Image

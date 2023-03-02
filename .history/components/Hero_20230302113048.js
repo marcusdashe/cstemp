@@ -63,7 +63,7 @@ export default function Hero() {
               right: 50,
               bottom: 50,
             }}
-            className="bg-gradient-to-br from-red-800 border-gray-200 border-opacity-[0.2] to-red-600 w-96 h-96 shadow-lg lg:h-[30rem] lg:w-[30rem] md:h-[30rem] md:w-[30rem] rounded-full overflow-hidden absolute z-0 flex items-center content-center justify-center"
+            className="bg-gradient-to-br from-red-800 border-gray-200 border-opacity-[0.2] to-red-600 shadow-lg h-[30rem] w-[30rem] rounded-full overflow-hidden absolute z-0 flex items-center content-center justify-center"
           >
             <Image
               src="/artisanal/9.jpg"

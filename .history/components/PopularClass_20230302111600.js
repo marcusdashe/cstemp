@@ -13,7 +13,7 @@ const POPULAR_CLASESS = [
     rating: "4.5",
   },
   {
-    img: "/assets/group.jpeg",
+    img: "/artisanal/18.jpg",
     title: "Content Development",
     sub: "Using learning resources for Technical & Vocational Education & Training Institutions (TVET), we have produced quality recyclable educational content e.g; tutorial videos, modules, etc. Educational Technology is our way forward.",
     promo: "design",

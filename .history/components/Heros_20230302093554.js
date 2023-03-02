@@ -8,12 +8,12 @@ const HEROES = [
   {
     img: "/assets/h1.svg",
     title: "Mr. Anthony Okwa",
-    sub: "Director General",
+    sub: "Managing Director",
     fb: "https://www.facebook.com/",
     twitter: "https://www.twitter.com/",
   },
   {
-    img: "/artisanal/21.jpg",
+    img: "/assets/h2.svg",
     title: "Mr. Seth Ogungbemi",
     sub: "Chief Operating Officer",
     fb: "https://www.facebook.com/",
@@ -35,7 +35,7 @@ const HEROES = [
   },
   {
     img: "/assets/h3.svg",
-    title: "Mr. Temitope Akinkunmi",
+    title: "Mr. Tope Akinkumi",
     sub: "Co-Ordinator Special Projects",
     fb: "https://www.facebook.com/",
     twitter: "https://www.twitter.com/",
@@ -56,7 +56,8 @@ export default function Heros() {
         Get to know the faces behind the success of our company
         </p>
         <p className="text-gray-500 text-base py-3 text-center w-full lg:w-[450px] md:w-[450px] mx-auto">
-          At C-STEMP we pride ourselves in our wealth of knowledge and leadership, putting us at the forefront of innovation in Africa&apos;s Technical
+          At C-STEMP we pride ourselves on our wealth of knowledge and leadership
+          , putting us at the forefront of innovation in Africa&apos;s Technical
           and Vocational Education Space
         </p>
         <div className="flex flex-col lg:flex-row lg:flex-wrap md:flex-row md:flex-wrap w-full items-center content-center justify-center lg:items-center lg:content-center lg:justify-center md:items-center md:content-center md:justify-center">
@@ -66,15 +67,13 @@ export default function Heros() {
                 className="px-6 py-4 w-80 lg:w-96 md:w-96 lg:ml-3 md:ml-3 lg:mr-3 md:mr-3 mt-10 mb-10 flex justify-center items-center flex-col rounded-xl bg-gray-50 shadow-lg border border-gray-200"
                 key={i}
               >
-               <div className="h-20 w-20 rounded-full ">
                 <Image
-                  className="object-cover aspect-square h-full w-full rounded-full"
+                  className="w-full h-20"
                   height={50}
                   width={50}
                   src={ser.img}
                   alt="services"
                 />
-               </div>
                 <p className="text-xl font-semibold line-clamp-1">
                   {ser.title}
                 </p>

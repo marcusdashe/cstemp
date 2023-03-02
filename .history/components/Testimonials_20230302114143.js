@@ -6,6 +6,7 @@ const PARTNERS = [
   {
     img: "/partners/niob.png",
     title: "Nigeria Institute of Building",
+   
   },
   {
     img: "/partners/itf.png",
@@ -22,8 +23,8 @@ const PARTNERS = [
   {
     img: "/partners/copen.png",
     title: "Coren",
-  },
-];
+  }
+]
 
 export default function Testimonials() {
   return (
@@ -34,30 +35,21 @@ export default function Testimonials() {
         height={100}
         width={100}
         alt=""
-      /> */}
+      /> */} 
       <p>Our Partners</p>
       <p className="text-3xl font-semibold mb-3 mt-10 text-center lg:text-start md:text-start">
-        Meet Our Trusted Partners: Together We're Building a Better Future{" "}
-        <br />
+      Meet Our Trusted Partners: Together We're Building a Better Future <br />
       </p>
-      <div className="flex flex-col lg:flex-row md:flex-row items-center content-center justify-evenly w-full mt-3">
+      <div className="flex flex-row">
         {PARTNERS.map((item, idx) => {
-          return (
-            <div
-              className="flex flex-col items-center content-center justify-between mx-[20px] my-4 py-3 "
-              key={idx}
-            >
-              <Image
-                src={item.img}
-                height={150}
-                width={150}
-                alt={`${item.title}`}
-              />
-              {/* <span className="text-center text-slate-400 font-medium mt-2">
+            return (
+              <div className="flex flex-col items-center content-center justify-between mx-[20px] my-4 py-3 " key={idx}>
+              <Image src={item.img} height={150} width={150} alt="" />
+              <span className="text-center text-base-300">
                 {item.title}
-              </span> */}
+              </span>
             </div>
-          );
+            )
         })}
       </div>
     </div>

@@ -68,7 +68,7 @@ export default function Heros() {
               >
                <div className="h-20 w-20 rounded-full ">
                 <Image
-                  className="object-cover aspect-square h-full w-full rounded-full"
+                  className="object-cover aspect-square h-full w-full mt-3 rounded-full"
                   height={50}
                   width={50}
                   src={ser.img}

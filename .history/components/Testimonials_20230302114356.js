@@ -40,11 +40,11 @@ export default function Testimonials() {
         Meet Our Trusted Partners: Together We're Building a Better Future{" "}
         <br />
       </p>
-      <div className="flex flex-col lg:flex-row md:flex-row items-center content-center justify-evenly w-full mt-3">
+      <div className="flex flex-row bg-red-200 items-center content-center justify-center">
         {PARTNERS.map((item, idx) => {
           return (
             <div
-              className="flex flex-col items-center content-center justify-between mx-[20px] my-4 py-3 "
+              className="flex flex-col items-center content-center justify-between mx-[20px] h-full bg-red-800 my-4 py-3 "
               key={idx}
             >
               <Image
@@ -53,9 +53,9 @@ export default function Testimonials() {
                 width={150}
                 alt={`${item.title}`}
               />
-              {/* <span className="text-center text-slate-400 font-medium mt-2">
+              <span className="text-center text-slate-400 font-medium mt-2">
                 {item.title}
-              </span> */}
+              </span>
             </div>
           );
         })}

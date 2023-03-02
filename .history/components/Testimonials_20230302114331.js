@@ -40,7 +40,7 @@ export default function Testimonials() {
         Meet Our Trusted Partners: Together We're Building a Better Future{" "}
         <br />
       </p>
-      <div className="flex flex-col lg:flex-row md:flex-row items-center content-center justify-evenly w-full mt-3">
+      <div className="flex flex-row items-center content-center justify-center">
         {PARTNERS.map((item, idx) => {
           return (
             <div
@@ -53,9 +53,9 @@ export default function Testimonials() {
                 width={150}
                 alt={`${item.title}`}
               />
-              {/* <span className="text-center text-slate-400 font-medium mt-2">
+              <span className="text-center text-slate-400 font-medium mt-2">
                 {item.title}
-              </span> */}
+              </span>
             </div>
           );
         })}
