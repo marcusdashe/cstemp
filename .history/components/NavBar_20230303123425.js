@@ -13,7 +13,7 @@ export default function NavBar() {
           width={100}
           src="/assets/logo1.png"
           alt="logo"
-          className="object-scale-down h-50 w-20 ml-10 mt-1"
+          className="object-scale-down h-50 w-20 ml-10"
         />
         <div className="hidden md:flex lg:flex items-center gap-8">
           <Link

@@ -6,7 +6,7 @@ import { motion, useScroll } from "framer-motion";
 
 const HEROES = [
   {
-    img: "/staff/tony.png",
+    img: "/assets/h1.svg",
     title: "Mr. Anthony Okwa",
     sub: "Director General",
     fb: "https://www.facebook.com/",
@@ -20,7 +20,7 @@ const HEROES = [
     twitter: "https://www.twitter.com/",
   },
   {
-    img: "/staff/eneokwa.png",
+    img: "/assets/h3.svg",
     title: "Mrs. Ene Okwa",
     sub: "Chief Financial Officer",
     fb: "https://www.facebook.com/",
@@ -34,7 +34,7 @@ const HEROES = [
     twitter: "https://www.twitter.com/",
   },
   {
-    img: "/staff/tope.png",
+    img: "/staff/tope.jpeg",
     title: "Mr. Temitope Akinkunmi",
     sub: "Co-ordinator Special Projects",
     fb: "https://www.facebook.com/",

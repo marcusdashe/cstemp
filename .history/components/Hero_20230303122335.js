@@ -1,6 +1,5 @@
 import Image from "next/image";
 import React from "react";
-import Link from "next/link";
 import { motion } from "framer-motion";
 
 export default function Hero() {
@@ -23,7 +22,7 @@ export default function Hero() {
           {/* sponsors */}
           <div className="w-full lg:w-5/6 md:w-5/6 mt-10 flex items-center content-center justify-center lg:items-center lg:content-center lg:justify-start md:items-center md:content-center md:justify-start">
             <Link
-              href="https://www.siteworx.ng"
+              href="https://siteworx.ng"
               className="text-gray-400 mt-2"
               target="_blank"
             >
@@ -36,44 +35,29 @@ export default function Hero() {
               />
             </Link>
 
-            <Link
-              href="https://www.cstempedutech.com"
-              className="text-gray-400 mt-2"
-              target="_blank"
-            >
-              <Image
-                src="/assets/edutech.png"
-                alt=""
-                height={60}
-                width={60}
-                className="ml-3 mr-3"
-              />
-            </Link>
-
-            <Link
-              href="https://caa.cstemp.org"
-              className="text-gray-400 mt-2"
-              target="_blank"
-            >
-              <Image
-                src="/assets/caa.png"
-                alt=""
-                height={60}
-                width={60}
-                className="ml-3 mr-3"
-              />
-            </Link>
+            <Image
+              src="/assets/edutech.png"
+              alt=""
+              height={60}
+              width={60}
+              className="ml-3 mr-3"
+            />
+            <Image
+              src="/assets/caa.png"
+              alt=""
+              height={60}
+              width={60}
+              className="ml-3 mr-3"
+            />
           </div>
           {/* buttons */}
           <div className="w-full md:w-5/6 lg:w-5/6 flex items-center content-center justify-center lg:items-center lg:content-center lg:justify-start md:items-center md:content-center md:justify-start mt-10">
-            <button className="w-[25%] mt-[30px] p-2 pl-4 pr-4 bg-red-800 text-white rouned-md font-medium text-md rounded-md hover:bg-[#D5D0ED]">
-              <Link href="/about" className="mt-2">
-                Learn More
-              </Link>
+            <button className="p-2 pl-4 pr-4 bg-red-800 text-white rouned-md font-medium text-md rounded-md hover:bg-[#D5D0ED]">
+              Learn More
             </button>
-            {/* <button className="p-2 pl-4 pr-4 bg-red-800 ml-3 text-white rouned-md font-medium text-md rounded-md hover:bg-[#D5D0ED]">
+            <button className="p-2 pl-4 pr-4 bg-red-800 ml-3 text-white rouned-md font-medium text-md rounded-md hover:bg-[#D5D0ED]">
               Get Started
-            </button> */}
+            </button>
           </div>
         </div>
         {/* left side */}

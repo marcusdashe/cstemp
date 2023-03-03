@@ -9,6 +9,10 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
+    "@mui/icons-material": "^5.11.11",
+    "@mui/material": "^5.11.11",
     "@tailwindcss/line-clamp": "^0.4.2",
     "daisyui": "^2.43.0",
     "eslint": "8.29.0",

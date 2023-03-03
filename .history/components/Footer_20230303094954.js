@@ -28,7 +28,7 @@ export default function Footer() {
             E-Limi LMS
           </Link>
           <Link
-            href="https://nsq.e-limi.africa"
+            href="https://cstempedutech.com/"
             className="text-gray-400 mt-2"
             target="_blank"
           >

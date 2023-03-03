@@ -20,7 +20,7 @@ const HEROES = [
     twitter: "https://www.twitter.com/",
   },
   {
-    img: "/staff/eneokwa.png",
+    img: "/assets/h3.svg",
     title: "Mrs. Ene Okwa",
     sub: "Chief Financial Officer",
     fb: "https://www.facebook.com/",
