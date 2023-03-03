@@ -84,7 +84,7 @@ export default function Heros() {
                   {ser.sub}
                 </p>
                 <div className="flex gap-5 items-center py-3">
-                  <a href={ser.twitter}>
+                  <a href={ser.fb}>
                     <TwitterIcon fontSize="small" />
                     {/* <BsFacebook className="text-base hover:text-red-800" /> */}
                   </a>

@@ -30,8 +30,8 @@ export default function Hero() {
               <Image
                 src="/assets/siteworx.png"
                 alt=""
-                height={80}
-                width={80}
+                height={100}
+                width={100}
                 className="mr-3"
               />
             </Link>

@@ -3,7 +3,6 @@ import { AiFillLinkedin } from "react-icons/ai";
 import { BsFacebook } from "react-icons/bs";
 import Image from "next/image";
 import { motion, useScroll } from "framer-motion";
-import TwitterIcon from "@mui/icons-material/Twitter";
 
 const HEROES = [
   {
@@ -61,11 +60,11 @@ export default function Heros() {
           leadership, putting us at the forefront of innovation in Africa&apos;s
           Technical and Vocational Education Space
         </p>
-        <div className=" flex flex-col lg:flex-row lg:flex-wrap md:flex-row md:flex-wrap w-full items-center content-center justify-center lg:items-center lg:content-center lg:justify-center md:items-center md:content-center md:justify-center">
+        <div className="flex flex-col lg:flex-row lg:flex-wrap md:flex-row md:flex-wrap w-full items-center content-center justify-center lg:items-center lg:content-center lg:justify-center md:items-center md:content-center md:justify-center">
           {HEROES.map((ser, i) => {
             return (
               <div
-                className="px-6 py-4 w-80 lg:w-96 md:w-96 lg:ml-3 md:ml-3 lg:mr-3 md:mr-3 mt-10 mb-10 flex justify-center items-center flex-col rounded-xl bg-gray-50 shadow-lg border border-gray-200"
+                className="outline px-6 py-4 w-80 lg:w-96 md:w-96 lg:ml-3 md:ml-3 lg:mr-3 md:mr-3 mt-10 mb-10 flex justify-center items-center flex-col rounded-xl bg-gray-50 shadow-lg border border-gray-200"
                 key={i}
               >
                 <div className="h-20 w-20 rounded-full ">
@@ -84,9 +83,8 @@ export default function Heros() {
                   {ser.sub}
                 </p>
                 <div className="flex gap-5 items-center py-3">
-                  <a href={ser.twitter}>
-                    <TwitterIcon fontSize="small" />
-                    {/* <BsFacebook className="text-base hover:text-red-800" /> */}
+                  <a href={ser.fb}>
+                    <BsFacebook className="text-base hover:text-red-800" />
                   </a>
 
                   <a href={ser.twitter}>

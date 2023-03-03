@@ -30,8 +30,8 @@ export default function Hero() {
               <Image
                 src="/assets/siteworx.png"
                 alt=""
-                height={80}
-                width={80}
+                height={60}
+                width={60}
                 className="mr-3"
               />
             </Link>
@@ -44,8 +44,8 @@ export default function Hero() {
               <Image
                 src="/assets/edutech.png"
                 alt=""
-                height={100}
-                width={100}
+                height={60}
+                width={60}
                 className="ml-3 mr-3"
               />
             </Link>
@@ -58,8 +58,8 @@ export default function Hero() {
               <Image
                 src="/assets/caa.png"
                 alt=""
-                height={100}
-                width={100}
+                height={60}
+                width={60}
                 className="ml-3 mr-3"
               />
             </Link>

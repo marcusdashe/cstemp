@@ -3,7 +3,6 @@ import { AiFillLinkedin } from "react-icons/ai";
 import { BsFacebook } from "react-icons/bs";
 import Image from "next/image";
 import { motion, useScroll } from "framer-motion";
-import TwitterIcon from "@mui/icons-material/Twitter";
 
 const HEROES = [
   {
@@ -84,9 +83,8 @@ export default function Heros() {
                   {ser.sub}
                 </p>
                 <div className="flex gap-5 items-center py-3">
-                  <a href={ser.twitter}>
-                    <TwitterIcon fontSize="small" />
-                    {/* <BsFacebook className="text-base hover:text-red-800" /> */}
+                  <a href={ser.fb}>
+                    <BsFacebook className="text-base hover:text-red-800" />
                   </a>
 
                   <a href={ser.twitter}>
