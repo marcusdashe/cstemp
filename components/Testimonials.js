@@ -37,7 +37,7 @@ export default function Testimonials() {
       /> */}
       <p>Our Partners</p>
       <p className="text-3xl font-semibold mb-3 mt-10 text-center lg:text-start md:text-start">
-        Meet Our Trusted Partners: Together We're Building a Better Future{" "}
+        Meet Our Trusted Partners: Together We are Building a Better Future{" "}
         <br />
       </p>
       <div className="flex flex-col lg:flex-row md:flex-row items-center content-center justify-evenly w-full mt-3">
