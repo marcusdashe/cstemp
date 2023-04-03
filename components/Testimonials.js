@@ -20,8 +20,12 @@ const PARTNERS = [
     title: "Clyde and Oak Capitals",
   },
   {
+    img: "/partners/nbte.png",
+    title: "NBTE",
+  },
+  {
     img: "/partners/copen.png",
-    title: "Coren",
+    title: "COPEN",
   },
 ];
 

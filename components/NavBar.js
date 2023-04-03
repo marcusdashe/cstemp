@@ -8,13 +8,15 @@ export default function NavBar() {
   return (
     <>
       <div className="flex flex-col lg:flex-row px-5 py-3 w-full justify-between items-center  md:fixed bg-white bg-opacity-[0.8] backdrop-blur-lg lg:fixed z-50">
-        <Image
-          height={100}
-          width={100}
-          src="/assets/logo1.png"
-          alt="logo"
-          className="object-scale-down h-50 w-20 ml-10 mt-1"
-        />
+        <Link href="/">
+          <Image
+            height={100}
+            width={100}
+            src="/assets/logo1.png"
+            alt="logo"
+            className="object-scale-down h-50 w-20 ml-10 mt-1"
+          />
+        </Link>
         <div className="hidden md:flex lg:flex items-center gap-8">
           <Link
             href="/"
