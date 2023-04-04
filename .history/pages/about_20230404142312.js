@@ -30,31 +30,23 @@ const about = () => {
           <div className="grid grid-cols-2 gap-20">
             <div>
               <h2 className="text-3xl font-bold mb-4">Our Mission</h2>
-              <ul className="list-disc">
+              <ul>
                 <li>
                   To advocate for vocational skills as a worthwhile &
                   respectable pathway for personal and career development
                 </li>
-                <li>
-                  To create a platform for enabling artisans to access social
-                  welfare packages available to workers in other sectors
-                </li>
-                <li>
-                  To build & deploy a pool of skilled and certified artisans to
-                  meet industry demands
-                </li>
               </ul>
+              <p className="text-lg">
+                In auctor erat eget felis feugiat, quis sodales elit feugiat.
+                Etiam vel nisi in lectus elementum luctus.
+              </p>
 
               <h2 className="text-3xl font-bold mb-4 mt-10">Our Vision</h2>
+
               <p className="text-lg mb-4">
                 To enhance the image of vocational skills and thus encourage
                 young persons to discover, develop and utilise these as a means
                 of socio-economic empowerment.
-              </p>
-
-              <h2 className="text-3xl font-bold mb-4 mt-10">Our Values</h2>
-              <p className="text-lg mb-4">
-                Selfless service, commitment to quality and best practices
               </p>
             </div>
 
@@ -70,22 +62,12 @@ const about = () => {
           <div className="mt-10 mb-10 grid grid-cols-1 md:grid-cols-2 gap-10 h-auto md:h-[50%]">
             <Yutube videoId="uy4h9v9PkrA" />
             <div className="h-auto">
-              <h2 className="text-3xl font-bold mb-4 mt-10">
-                Our Training Model
-              </h2>
+              <h2 className="text-3xl font-bold mb-4 mt-10">Our Approach</h2>
               <p className="text-lg mb-4">
-                The C-STEMP Training program is a fast-track program designed to
-                meet the skills/up-skilling need of artisans and Craftsmen
-                within the shortest possible time frame.
-              </p>
-              <p>
-                Our training model involves the use of multimedia technology
-                specially designed for the program, practical demonstrations and
-                On the Job Training
-              </p>
-              <p>
-                Training packs also include well illustrated manuals and video
-                clips enabling trainees to continue learning at home.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
+                sed lacinia orci, id ultrices nisl. Fusce congue, augue non
+                faucibus aliquam, purus lorem lacinia enim, eget tincidunt odio
+                sapien ut nunc.
               </p>
             </div>
           </div>

@@ -17,7 +17,7 @@ const contact = () => {
             <div className="md:flex">
               <div className="md:flex-shrink-0 bg-[#8D161A] text-white py-4 px-4 md:py-12 md:px-12">
                 <h2 className="text-2xl font-semibold">Get in touch</h2>
-                <p className="mt-2 text-md">We would love to hear from you</p>
+                <p className="mt-2 text-md">We'd love to hear from you.</p>
               </div>
               <div className="p-8">
                 <form className="space-y-6">
@@ -33,8 +33,7 @@ const contact = () => {
                         type="text"
                         name="name"
                         id="name"
-                        size={50}
-                        className="shadow-sm focus:ring-gray-700 focus:border-gray-700 block w-full sm:text-sm border-gray-300 rounded-md h-10"
+                        className="shadow-sm focus:ring-gray-700 focus:border-gray-700 block w-full sm:text-sm border-gray-300 rounded-md"
                       />
                     </div>
                   </div>
@@ -51,8 +50,7 @@ const contact = () => {
                         type="text"
                         name="email"
                         id="email"
-                        size={50}
-                        className="shadow-sm h-10 focus:ring-gray-700 focus:border-gray-700 block w-full sm:text-sm border-gray-300 rounded-md"
+                        className="shadow-sm focus:ring-blue-500 focus:border-blue-500 block w-full sm:text-sm border-gray-300 rounded-md"
                       />
                     </div>
                   </div>
@@ -69,7 +67,7 @@ const contact = () => {
                         id="message"
                         name="message"
                         rows="4"
-                        className="shadow-sm focus:ring-gray-700 focus:border-gray-700 block w-full sm:text-sm border-gray-300 rounded-md"
+                        className="shadow-sm focus:ring-[#8D161A] focus:border-blue-500 block w-full sm:text-sm border-gray-300 rounded-md"
                       />
                     </div>
                   </div>
@@ -85,7 +83,7 @@ const contact = () => {
                 </form>
                 <div className="text-center mt-8">
                   <Link href="/">
-                    <p p className="text-[#8D161A] focus:border-gray-700">
+                    <p p className="text-[#8D161A] hover:text-blue-600">
                       Back to Home
                     </p>
                   </Link>

@@ -78,15 +78,6 @@ const about = () => {
                 meet the skills/up-skilling need of artisans and Craftsmen
                 within the shortest possible time frame.
               </p>
-              <p>
-                Our training model involves the use of multimedia technology
-                specially designed for the program, practical demonstrations and
-                On the Job Training
-              </p>
-              <p>
-                Training packs also include well illustrated manuals and video
-                clips enabling trainees to continue learning at home.
-              </p>
             </div>
           </div>
         </div>

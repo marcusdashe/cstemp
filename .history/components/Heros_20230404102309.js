@@ -21,7 +21,7 @@ const HEROES = [
     twitter: "https://www.twitter.com/",
   },
   {
-    img: "/staff/rita.png",
+    img: "/staff/sam.png",
     title: "Mrs. Rita Silas",
     sub: "Finance and Admin Manager",
     fb: "https://www.facebook.com/",

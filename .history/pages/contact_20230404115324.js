@@ -51,8 +51,7 @@ const contact = () => {
                         type="text"
                         name="email"
                         id="email"
-                        size={50}
-                        className="shadow-sm h-10 focus:ring-gray-700 focus:border-gray-700 block w-full sm:text-sm border-gray-300 rounded-md"
+                        className="shadow-sm focus:ring-gray-700 focus:border-gray-700 block w-full sm:text-sm border-gray-300 rounded-md"
                       />
                     </div>
                   </div>

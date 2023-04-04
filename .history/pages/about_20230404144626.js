@@ -74,18 +74,10 @@ const about = () => {
                 Our Training Model
               </h2>
               <p className="text-lg mb-4">
-                The C-STEMP Training program is a fast-track program designed to
-                meet the skills/up-skilling need of artisans and Craftsmen
-                within the shortest possible time frame.
-              </p>
-              <p>
-                Our training model involves the use of multimedia technology
-                specially designed for the program, practical demonstrations and
-                On the Job Training
-              </p>
-              <p>
-                Training packs also include well illustrated manuals and video
-                clips enabling trainees to continue learning at home.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
+                sed lacinia orci, id ultrices nisl. Fusce congue, augue non
+                faucibus aliquam, purus lorem lacinia enim, eget tincidunt odio
+                sapien ut nunc.
               </p>
             </div>
           </div>

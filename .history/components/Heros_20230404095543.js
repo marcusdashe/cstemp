@@ -21,15 +21,15 @@ const HEROES = [
     twitter: "https://www.twitter.com/",
   },
   {
-    img: "/staff/rita.png",
-    title: "Mrs. Rita Silas",
+    img: "/staff/sam.png",
+    title: "Ms. Rita Silas",
     sub: "Finance and Admin Manager",
     fb: "https://www.facebook.com/",
     twitter: "https://www.twitter.com/",
   },
   {
     img: "/staff/sam.png",
-    title: "Mr. Samuel Okwa",
+    title: "Mr. Smauel Okwa",
     sub: "Siteworx Project Coordinator",
     fb: "https://www.facebook.com/",
     twitter: "https://www.twitter.com/",
