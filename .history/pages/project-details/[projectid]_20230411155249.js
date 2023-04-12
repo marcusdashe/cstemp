@@ -45,6 +45,8 @@ const ProjectSingle = () => {
   const router = useRouter();
   const { projectId } = router.query;
 
+  console.log(projectId);
+  console.log(router);
   return (
     <Layout>
       <motion.div
