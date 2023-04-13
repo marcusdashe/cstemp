@@ -1,13 +1,17 @@
-// export default Projects;
+// import React from "react";
+// import { useRouter } from "next/router";
+// import ProjectGallery from "@/components/projects/ProjectGallery";
+// import ProjectHeader from "@/components/projects/ProjectHeader";
+// import ProjectInfo from "@/components/projects/ProjectInfo";
+// import ProjectRelatedProjects from "@/components/projects/ProjectRelatedProjects";
 // import Layout from "@/components/Layout";
-// import ProjectGallery from "../components/projects/ProjectGallery";
-// import ProjectHeader from "../components/projects/ProjectHeader";
-// import ProjectInfo from "../components/projects/ProjectInfo";
-// import ProjectRelatedProjects from "../components/projects/ProjectRelatedProjects";
-// import { SingleProjectProvider } from "../context/SingleProjectContext";
+// import { SingleProjectProvider } from "../../context/SingleProjectContext";
 // import { motion } from "framer-motion";
 
-// const Projects = () => {
+// const ProjectSingle = ({ projectId }) => {
+//   // const router = useRouter();
+//   // const [projectId, setProjectId] = React.useState(router.query.pid);
+
 //   return (
 //     <Layout>
 //       <motion.div
@@ -21,16 +25,41 @@
 //         className="container mx-auto mt-5 sm:mt-10"
 //       >
 //         <SingleProjectProvider>
-//           <ProjectHeader />
-//           <ProjectGallery />
-//           <ProjectInfo />
-//           <ProjectRelatedProjects />
+//           <ProjectHeader pid={projectId} />
+//           <ProjectGallery pid={projectId} />
+//           <ProjectInfo pid={projectId} />
+//           {/* <ProjectRelatedProjects /> */}
 //         </SingleProjectProvider>
 //       </motion.div>
 //     </Layout>
 //   );
 // };
 
+// export async function getStaticPaths() {
+//   // You can use an API or database query to get the project IDs
+//   return {
+//     paths: [
+//       { params: { projectId: "0" } },
+//       { params: { projectId: "1" } },
+//       { params: { projectId: "2" } },
+//     ],
+
+//     fallback: false, // can also be true or 'blocking'
+//   };
+// }
+
+// export async function getStaticProps({ params }) {
+//   const projectId = params?.projectId;
+//   return {
+//     props: {
+//       projectId,
+//     },
+//   };
+// }
+
+// export default ProjectSingle;
+
+import React from "react";
 import { useRouter } from "next/router";
 import ProjectGallery from "@/components/projects/ProjectGallery";
 import ProjectHeader from "@/components/projects/ProjectHeader";
@@ -40,44 +69,10 @@ import Layout from "@/components/Layout";
 import { SingleProjectProvider } from "../../context/SingleProjectContext";
 import { motion } from "framer-motion";
 
-import { getStaticPaths, getStaticProps } from "next";
-
-export const getStaticPaths = async () => {
-  // Fetch a list of all project IDs from an API or database
-  // const projectIds = await fetch("https://example.com/api/projects")
-  //   .then((res) => res.json())
-  //   .then((projects) => projects.map((project) => project.projectId));
-
-  const router = useRouter();
-  const { projectId } = router.query;
-  const projectIds = [projectId];
-  // Return an array of objects with the `params` key, which
-  // contains the dynamic route parameter (in this case, `projectId`)
-  const paths = projectIds.map((projectId) => ({
-    params: { projectId: projectId.toString() },
-  }));
-
-  return {
-    paths,
-    fallback: false,
-  };
-};
-
-export const getStaticProps = async ({ params }) => {
-  // Fetch the project data for the given projectId
-  const pid = params.projectId;
-
-  return {
-    props: { pid },
-  };
-};
-
-const ProjectSingle = ({ pid }) => {
+const ProjectSingle = ({ projectId }) => {
   // const router = useRouter();
-  // const { projectId } = router.query;
+  // const projectId = router.query.projectId;
 
-  console.log(projectId);
-  console.log(router);
   return (
     <Layout>
       <motion.div
@@ -91,14 +86,36 @@ const ProjectSingle = ({ pid }) => {
         className="container mx-auto mt-5 sm:mt-10"
       >
         <SingleProjectProvider>
-          <ProjectHeader pid={pid} />
-          <ProjectGallery pid={pid} />
-          <ProjectInfo pid={pid} />
+          <ProjectHeader pid={projectId} />
+          <ProjectGallery pid={projectId} />
+          <ProjectInfo pid={projectId} />
           {/* <ProjectRelatedProjects /> */}
         </SingleProjectProvider>
       </motion.div>
     </Layout>
   );
 };
+
+export async function getStaticPaths() {
+  // You can use an API or database query to get the project IDs
+  return {
+    paths: [
+      { params: { projectId: "0" } },
+      { params: { projectId: "1" } },
+      { params: { projectId: "2" } },
+    ],
+
+    fallback: false, // can also be true or 'blocking'
+  };
+}
+
+export async function getStaticProps({ params }) {
+  const projectId = params?.projectId ?? "";
+  return {
+    props: {
+      projectId,
+    },
+  };
+}
 
 export default ProjectSingle;

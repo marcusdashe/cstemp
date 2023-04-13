@@ -13,6 +13,7 @@ const ProjectSingle = ({ title, category, image, pid }) => {
         delay: 0.15,
       }}
     >
+      {/* <Link href={{ pathname: `/project`, query: { pid } }}> */}
       <Link href={`/project-details/${pid}`}>
         <div className="rounded-xl shadow-lg hover:shadow-xl cursor-pointer mb-10 sm:mb-0 bg-secondary-light dark:bg-ternary-dark">
           <div>
