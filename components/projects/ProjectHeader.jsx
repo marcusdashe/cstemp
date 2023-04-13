@@ -4,6 +4,8 @@ import SingleProjectContext from "../../context/SingleProjectContext";
 
 const ProjectSingleHeader = ({ pid }) => {
   const { singleProjectData } = useContext(SingleProjectContext);
+  console.log(pid);
+  console.log(singleProjectData[0]);
 
   return (
     <div>
