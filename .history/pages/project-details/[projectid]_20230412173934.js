@@ -89,9 +89,9 @@ const ProjectSingle = ({ pid }) => {
         className="container mx-auto mt-5 sm:mt-10"
       >
         <SingleProjectProvider>
-          <ProjectHeader pid={pid} />
-          <ProjectGallery pid={pid} />
-          <ProjectInfo pid={pid} />
+          <ProjectHeader pid={projectId} />
+          <ProjectGallery pid={projectId} />
+          <ProjectInfo pid={projectId} />
           {/* <ProjectRelatedProjects /> */}
         </SingleProjectProvider>
       </motion.div>
