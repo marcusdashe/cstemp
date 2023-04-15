@@ -182,13 +182,6 @@ export const singleProjectData = [
           "Basic Construction Trade Orientation and Performance Improvement Course, Enugu",
         img: "/project/enugu/enugu.png",
       },
-
-      {
-        id: 1,
-        title:
-          "Basic Construction Trade Orientation and Performance Improvement Course, Enugu",
-        img: "/project/enugu/enugu1.png",
-      },
     ],
     ProjectInfo: {
       ClientHeading: "Under the Auspices of",

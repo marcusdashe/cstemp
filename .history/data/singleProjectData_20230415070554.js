@@ -182,13 +182,6 @@ export const singleProjectData = [
           "Basic Construction Trade Orientation and Performance Improvement Course, Enugu",
         img: "/project/enugu/enugu.png",
       },
-
-      {
-        id: 1,
-        title:
-          "Basic Construction Trade Orientation and Performance Improvement Course, Enugu",
-        img: "/project/enugu/enugu1.png",
-      },
     ],
     ProjectInfo: {
       ClientHeading: "Under the Auspices of",
@@ -346,8 +339,6 @@ export const singleProjectData = [
             "Carpentry",
             "Steel Fabrication",
             "Metal Fabrication",
-            "Solar and Satelite Installation",
-            "POP Ceiling Decoration",
             "Fashion and Tailoring",
             "Computer Appreciation and Maintenance",
             "Catering",
@@ -366,59 +357,6 @@ export const singleProjectData = [
           id: 2,
           details:
             "C-STEMP was privileged to facilitate one of such projects in one of the Northern States, running the training in two centres: Bauchi and Azare (Itas Gadau).",
-        },
-      ],
-    },
-  },
-
-  {
-    ProjectHeader: {
-      title: "Skills Improvement Course for Julius Berger Staff",
-      publishDate: "2017",
-      tags: "Julius Berger",
-    },
-    ProjectImages: [
-      {
-        id: 1,
-        title: "Skills Improvement Course for Julius Berger Staff",
-        img: "/project/julius/julius.jpg",
-      },
-
-      {
-        id: 1,
-        title: "Skills Improvement Course for Julius Berger Staff",
-        img: "/project/julius/berger.jpg",
-      },
-
-      {
-        id: 1,
-        title: "Skills Improvement Course for Julius Berger Staff",
-        img: "/project/julius/berger1.jpg",
-      },
-    ],
-    ProjectInfo: {
-      ClientHeading: "Sponsor",
-      CompanyInfo: [
-        {
-          id: 1,
-          title: "Name",
-          details: "Julius Berger",
-        },
-      ],
-      // ObjectivesHeading: "Activities",
-      ObjectivesDetails: [],
-      Technologies: [
-        {
-          title: "Trades",
-          techs: ["Iron Benders/Fitters "],
-        },
-      ],
-      ProjectDetailsHeading: "Overview",
-      ProjectDetails: [
-        {
-          id: 1,
-          details:
-            "C-STEMP facilitated the Skills Improvement Course for the Iron Benders/Fitters and Helpers of Julius Berger Nigeria Ltd. The objective was to enhance the skills of the Iron Benders/Fitters and Helpers, their knowledge and understanding of the practices and best practices for their trade to enable them appreciate steps and procedures expected to achieve optional performance on the job. The training was run in three locations: Abuja, Lagos and Uyo (including some staff from Port Harcourt).",
         },
       ],
     },

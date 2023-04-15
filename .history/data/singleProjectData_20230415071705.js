@@ -182,13 +182,6 @@ export const singleProjectData = [
           "Basic Construction Trade Orientation and Performance Improvement Course, Enugu",
         img: "/project/enugu/enugu.png",
       },
-
-      {
-        id: 1,
-        title:
-          "Basic Construction Trade Orientation and Performance Improvement Course, Enugu",
-        img: "/project/enugu/enugu1.png",
-      },
     ],
     ProjectInfo: {
       ClientHeading: "Under the Auspices of",
@@ -374,35 +367,24 @@ export const singleProjectData = [
   {
     ProjectHeader: {
       title: "Skills Improvement Course for Julius Berger Staff",
-      publishDate: "2017",
+      publishDate: "2016",
       tags: "Julius Berger",
     },
     ProjectImages: [
       {
         id: 1,
-        title: "Skills Improvement Course for Julius Berger Staff",
+        title:
+          "Basic Construction Trade Orientation and Performance Improvement Course, Enugu",
         img: "/project/julius/julius.jpg",
-      },
-
-      {
-        id: 1,
-        title: "Skills Improvement Course for Julius Berger Staff",
-        img: "/project/julius/berger.jpg",
-      },
-
-      {
-        id: 1,
-        title: "Skills Improvement Course for Julius Berger Staff",
-        img: "/project/julius/berger1.jpg",
       },
     ],
     ProjectInfo: {
-      ClientHeading: "Sponsor",
+      ClientHeading: "Under the Auspices of",
       CompanyInfo: [
         {
           id: 1,
           title: "Name",
-          details: "Julius Berger",
+          details: "Enugu Chamber of Commerce & REDAN",
         },
       ],
       // ObjectivesHeading: "Activities",
@@ -410,7 +392,15 @@ export const singleProjectData = [
       Technologies: [
         {
           title: "Trades",
-          techs: ["Iron Benders/Fitters "],
+          techs: [
+            "Masonry ",
+            "Electrical Installation",
+            "Plumbing Installation ",
+            "Tiling ",
+            "Painting and Decoration",
+            "Iron Bending ",
+            "Carpentry",
+          ],
         },
       ],
       ProjectDetailsHeading: "Overview",
@@ -418,7 +408,7 @@ export const singleProjectData = [
         {
           id: 1,
           details:
-            "C-STEMP facilitated the Skills Improvement Course for the Iron Benders/Fitters and Helpers of Julius Berger Nigeria Ltd. The objective was to enhance the skills of the Iron Benders/Fitters and Helpers, their knowledge and understanding of the practices and best practices for their trade to enable them appreciate steps and procedures expected to achieve optional performance on the job. The training was run in three locations: Abuja, Lagos and Uyo (including some staff from Port Harcourt).",
+            "A 3-day upskilling programme for artisans in Enugu under the auspices of the Enugu Chamber of Commerce and the Real Estate Developers Association of Nigeria (South-East Zone). 120 artisans participated in the training. It held between October 26 and 28, 2016.",
         },
       ],
     },

@@ -35,12 +35,6 @@ export const projectsData = [
     id: 4,
     title: "Youth Employment and Social Support Operation [YESSO] Project",
     category: "YESSO",
-    img: "/project/yesso/yesso.png",
-  },
-  {
-    id: 5,
-    title: "Skills Improvement Course for Julius Berger Staff",
-    category: "Julius Berger",
-    img: "/project/julius/julius.jpg",
+    img: "/project/nde/nde.png",
   },
 ];

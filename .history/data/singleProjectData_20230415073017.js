@@ -187,7 +187,7 @@ export const singleProjectData = [
         id: 1,
         title:
           "Basic Construction Trade Orientation and Performance Improvement Course, Enugu",
-        img: "/project/enugu/enugu1.png",
+        img: "/project/enugu/enugu.png",
       },
     ],
     ProjectInfo: {

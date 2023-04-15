@@ -182,13 +182,6 @@ export const singleProjectData = [
           "Basic Construction Trade Orientation and Performance Improvement Course, Enugu",
         img: "/project/enugu/enugu.png",
       },
-
-      {
-        id: 1,
-        title:
-          "Basic Construction Trade Orientation and Performance Improvement Course, Enugu",
-        img: "/project/enugu/enugu1.png",
-      },
     ],
     ProjectInfo: {
       ClientHeading: "Under the Auspices of",
@@ -314,21 +307,21 @@ export const singleProjectData = [
       {
         id: 2,
         title: "Youth Employment and Social Support Operation [YESSO] Project",
-        img: "/project/yesso/yesso1.png",
+        img: "/project/nde/nde-white.png",
       },
       {
         id: 3,
         title: "Youth Employment and Social Support Operation [YESSO] Project",
-        img: "/project/yesso/yesso2.png",
+        img: "/project/nde/nde-three.png",
       },
     ],
     ProjectInfo: {
-      ClientHeading: "Sponsor and Partner",
+      ClientHeading: "Collaborating Partner",
       CompanyInfo: [
         {
           id: 1,
           title: "Name",
-          details: "World Bank, NDE",
+          details: "National Directorate of Employment (NDE)",
         },
       ],
       // ObjectivesHeading: "Activities",
@@ -345,13 +338,9 @@ export const singleProjectData = [
             "Iron Bending ",
             "Carpentry",
             "Steel Fabrication",
-            "Metal Fabrication",
-            "Solar and Satelite Installation",
-            "POP Ceiling Decoration",
             "Fashion and Tailoring",
-            "Computer Appreciation and Maintenance",
+            "Computer",
             "Catering",
-            "automobile",
           ],
         },
       ],
@@ -360,65 +349,17 @@ export const singleProjectData = [
         {
           id: 1,
           details:
-            "YESSO was a federal government project through the help of the World Bank and under the purview of the National Directorate of Employment (NDE). The rationale was to increase access of the youth (the poor and vulnerable) to employment opportunities and delivery. The participants of the component were exposed to various skills training in the identified sectors of the economy which were determined by the outcome of the skills scan study.",
+            "Following recognition and acknowledgement of its achievements since conception, C-STEMP had a collaboration with the National Directorate of Employment (NDE) to train construction artisans at the NDE model skills center, Kuduru, Bwari. The training was for three months",
         },
         {
           id: 2,
           details:
-            "C-STEMP was privileged to facilitate one of such projects in one of the Northern States, running the training in two centres: Bauchi and Azare (Itas Gadau).",
+            "120 candidates were recruited and mobilized for training by the NDE. The training commenced on the 20th, February 2017 with a total of 126 trainees. There was also a training of trainers before the commencement of the training which was facilitated by our partners from IL&FS",
         },
-      ],
-    },
-  },
-
-  {
-    ProjectHeader: {
-      title: "Skills Improvement Course for Julius Berger Staff",
-      publishDate: "2017",
-      tags: "Julius Berger",
-    },
-    ProjectImages: [
-      {
-        id: 1,
-        title: "Skills Improvement Course for Julius Berger Staff",
-        img: "/project/julius/julius.jpg",
-      },
-
-      {
-        id: 1,
-        title: "Skills Improvement Course for Julius Berger Staff",
-        img: "/project/julius/berger.jpg",
-      },
-
-      {
-        id: 1,
-        title: "Skills Improvement Course for Julius Berger Staff",
-        img: "/project/julius/berger1.jpg",
-      },
-    ],
-    ProjectInfo: {
-      ClientHeading: "Sponsor",
-      CompanyInfo: [
         {
-          id: 1,
-          title: "Name",
-          details: "Julius Berger",
-        },
-      ],
-      // ObjectivesHeading: "Activities",
-      ObjectivesDetails: [],
-      Technologies: [
-        {
-          title: "Trades",
-          techs: ["Iron Benders/Fitters "],
-        },
-      ],
-      ProjectDetailsHeading: "Overview",
-      ProjectDetails: [
-        {
-          id: 1,
+          id: 3,
           details:
-            "C-STEMP facilitated the Skills Improvement Course for the Iron Benders/Fitters and Helpers of Julius Berger Nigeria Ltd. The objective was to enhance the skills of the Iron Benders/Fitters and Helpers, their knowledge and understanding of the practices and best practices for their trade to enable them appreciate steps and procedures expected to achieve optional performance on the job. The training was run in three locations: Abuja, Lagos and Uyo (including some staff from Port Harcourt).",
+            "The trainees went through 1 month intensive classroom-based training and 2 months of attachment/ placement, while they were being assessed in the process. Mobile-learning was employed during this programme which facilitated a lot of interaction among the trainees themselves and between them and their instructors. The trainees also learnt some entrepreneurial skills and value added modules were impacted in the course of the training under the Small Scale Building Materials Production Workshop. Excursions to factories, exhibitions and visits to relevant employers of labour were also part of the programme.",
         },
       ],
     },
