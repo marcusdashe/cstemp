@@ -137,8 +137,7 @@ export default function Hero() {
         whileInView={{ opacity: 1 }}
         className="hidden lg:flex md:flex w-5/6 m-auto mt-14 mb-10 font-medium justify-around bg-zinc-100 p-8 rounded-md"
       >
-        {/* <span className="text-align flex flex-col items-center content-center justify-center text-slate-900"> */}
-        <span class="text-align flex flex-col items-center content-center justify-center text-slate-900 border border-[#8D161A] rounded-lg p-4">
+        <span className="text-align outline flex flex-col items-center content-center justify-center text-slate-900">
           <Image
             src="/assets/talent.png"
             alt=""
@@ -148,7 +147,7 @@ export default function Hero() {
           />
           Training Talent
         </span>
-        <span class="text-align flex flex-col items-center content-center justify-center text-slate-900 border border-[#8D161A] rounded-lg p-4">
+        <span className="text-align flex flex-col items-center content-center justify-center text-slate-900">
           <Image
             src="/assets/dskills.png"
             alt=""
@@ -158,7 +157,7 @@ export default function Hero() {
           />
           Outsourcing Skills
         </span>
-        <span class="text-align flex flex-col items-center content-center justify-center text-slate-900 border border-[#8D161A] rounded-lg p-4">
+        <span className="text-align flex flex-col items-center content-center justify-center text-slate-900">
           <Image
             src="/assets/empowerment.png"
             alt=""
@@ -168,7 +167,7 @@ export default function Hero() {
           />
           Empowerment
         </span>
-        <span class="text-align flex flex-col items-center content-center justify-center text-slate-900 border border-[#8D161A] rounded-lg p-4">
+        <span className="text-align flex flex-col items-center content-center justify-center text-slate-900">
           <Image
             src="/assets/award.png"
             alt=""

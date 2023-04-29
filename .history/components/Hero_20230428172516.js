@@ -168,7 +168,7 @@ export default function Hero() {
           />
           Empowerment
         </span>
-        <span class="text-align flex flex-col items-center content-center justify-center text-slate-900 border border-[#8D161A] rounded-lg p-4">
+        <span className="text-align flex flex-col items-center content-center justify-center text-slate-900">
           <Image
             src="/assets/award.png"
             alt=""

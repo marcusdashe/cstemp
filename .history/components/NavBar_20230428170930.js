@@ -28,7 +28,7 @@ export default function NavBar() {
             href="/about"
             className="text-base font-medium cursor-pointer hover:text-[#8D161A]"
           >
-            About Us
+            About
           </Link>
           {/* <Link
             href="/services"

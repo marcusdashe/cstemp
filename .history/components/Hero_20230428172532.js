@@ -170,7 +170,7 @@ export default function Hero() {
         </span>
         <span class="text-align flex flex-col items-center content-center justify-center text-slate-900 border border-[#8D161A] rounded-lg p-4">
           <Image
-            src="/assets/award.png"
+            src="/assets/award.png]"
             alt=""
             height={100}
             width={100}
